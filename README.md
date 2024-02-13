@@ -1,4 +1,10 @@
-# Project_4
+Employee Attrition
+
+Data Analysts:
+Janka Glenn- ![Gmail Badge](https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff&style=flat) & ![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=flat)
+Robin Wilson
+
+Background:
 ![image](https://github.com/RobinLWilson/Project_4/assets/140012839/e5065d9d-e645-4932-9a9e-c52ad9ccc393)
 
 
