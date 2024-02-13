@@ -11,10 +11,22 @@ Data Analysts and Roles:
   - Data Cleaning
   - Machine Learning
   - GitHub Pages
+  
 (https://webstockreview.net/images/line-clipart-wavy-3.png)
+
 Software:
 - Data Cleaning:
-    - 
+    - Python
+    - Jupyter Notebook
+    - Pandas library
+    - Numpy
+- Dashboard:
+    - Tableau Public
+    - Microsoft PowerPoint
+- Machine Learning:
+    - Google Colab
+    - TensorFlow
+    - Scikit-Learn
 Background:
 ![image](https://github.com/RobinLWilson/Project_4/assets/140012839/e5065d9d-e645-4932-9a9e-c52ad9ccc393)
 
@@ -29,4 +41,4 @@ Background:
 ![scikit-learn Badge](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=fff&style=flat)
 ![pandas Badge](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=fff&style=flat)
 ![NumPy Badge](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=fff&style=flat)
-
+![Microsoft PowerPoint Badge](https://img.shields.io/badge/Microsoft%20PowerPoint-B7472A?logo=microsoftpowerpoint&logoColor=fff&style=flat)
