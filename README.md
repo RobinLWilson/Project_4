@@ -23,9 +23,18 @@ Data Source: https://www.kaggle.com/datasets/samruddhi4040/hr-data-analytics
 With over 1,400 data points and over 40 features, we were confident that even after cleaning the data we would have the minimum required 1,000 observations and 10 features.
 
 Data Cleaning: 
-We downloaded the csv and conducted the cleaning process in Jupter notebook.  We first dropped unnecessary columns
-    - dropped nulls
-    - deleted duplicates
+1. We downloaded the csv and conducted the cleaning process in Jupter notebook using python and pandas pd.  
+2. We dropped the following unnecessary columns:
+- DailyRate, HourlyRate, and MonthlyRate because we will use the SalarySlab bins
+- EmployeeCount and EmployeeNumber because we will use EmpID
+- Over18 because all the employees were over 18
+- RelationshipSatisfaction because there was not enough information around this variable
+- StandardHours because all the employees had the same value of 80
+- Age because we will use the AgeGroup bins
+
+3. Then we dropped the duplicate values which accounted for 7 data points.
+4. By using the ".count" feature, we identified there were nulls in the "YearsWithCurrentManager" variable.  After dropping the nulls, we verified no nulls remained by using "isna()".  
+5. Next we needed to start converting all object datatypes into numerical values.  To begin, we 
     - verified consistant data within columns using .unique()
     - Object Variables translated into numerical representations
         - Analyzed all object variables and categorized them into either: Binary, Relational, or Independent
