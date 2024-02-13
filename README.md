@@ -4,7 +4,7 @@
 
 ## Overview and Project Goals
 
-Welcome to the Human Resources Attrition Analysis Project! This project focuses on utilizing data analytics to understand and analyze employee attrition within an organization. As a data analyst, our role is crucial in uncovering patterns, identifying key factors, and providing actionable insights to help the HR department make informed decisions.
+Welcome to our Human Resources Attrition Analysis Project! This project focuses on utilizing data analytics to understand and analyze employee attrition within an organization. In other words, we want to understand why a person leaves a company because reducing turnover costs helps companies operate more efficiently. As a data analyst, our role is crucial in uncovering patterns, identifying key factors, and providing actionable insights to help the HR department make informed decisions.
 
 ## Questions the team hopes to answer
 
@@ -14,11 +14,21 @@ Analyze historical data to identify patterns and trends related to employee attr
 ### Identify Key Factors
 Explore the various factors that contribute to attrition, such as job satisfaction, work-life balance, compensation, and career growth. Identify which factors have the most significant impact.
 
+### Identify Future Attrition
+Predict if an employee might leave in the future, giving HR and management time to create incentives for high impact employees to remain with the company.
+
 ## Project Structure
 ### 1. Data Collection
-Data Source: https://www.kaggle.com/datasets/samruddhi4040/hr-data-analytics
+Data Source: https://www.kaggle.com/datasets/samruddhi4040/hr-data-analytics  
+With over 1,400 data points and over 40 features, we were confident that even after cleaning the data we would have the minimum required 1,000 observations and 10 features.
 
-Data Cleaning: Describe the process of cleaning and preparing the data for analysis.
+Data Cleaning: 
+We downloaded the csv and conducted the cleaning process in Jupter notebook.  We first dropped unnecessary columns
+    - dropped nulls
+    - deleted duplicates
+    - verified consistant data within columns using .unique()
+    - Object Variables translated into numerical representations
+        - Analyzed all object variables and categorized them into either: Binary, Relational, or Independent
 ### 2. Exploratory Data Analysis (EDA)
 Descriptive Statistics: Provide summary statistics to describe the overall attrition rate and relevant metrics.
 Data Visualization: 
@@ -46,14 +56,7 @@ We used Tableu Public for the visualisation part. https://public.tableau.com/app
 
 ## Process:
 ### Data Sourcing and Cleaning:
-- found data set on Kaggle that had 1,000+ data points with over 40 features
-- downloaded csv and cleaned in Jupter notebook
-    - dropped columns
-    - dropped nulls
-    - deleted duplicates
-    - verified consistant data within columns using .unique()
-    - Object Variables translated into numerical representations
-        - Analyzed all object variables and categorized them into either: Binary, Relational, or Independent
+
      
 ## Results
 ![Attrition_by_Dept_Job_Role](https://github.com/RobinLWilson/Project_4/assets/140012839/4a3c4757-d4d4-4d2b-97b4-7c7d280bd112)
