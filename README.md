@@ -20,7 +20,7 @@ Data Source: https://www.kaggle.com/datasets/samruddhi4040/hr-data-analytics
 Data Cleaning: Describe the process of cleaning and preparing the data for analysis.
 ### 2. Exploratory Data Analysis (EDA)
 Descriptive Statistics: Provide summary statistics to describe the overall attrition rate and relevant metrics.
-Data Visualization: Use visualizations to illustrate trends, patterns, and relationships in the data.
+Data Visualization: 
 ### 3. Feature Selection
 Identify Features: Select the most relevant features that impact attrition.
 Correlation Analysis: Analyze the correlation between different features.
@@ -55,6 +55,10 @@ We used Tableu Public for the visualisation part. https://public.tableau.com/app
         - Analyzed all object variables and categorized them into either: Binary, Relational, or Independent
      
 ## Results
+![Age_Group_vs_Gender](https://github.com/RobinLWilson/Project_4/assets/140012839/efbf30c1-e6f0-438e-b6da-004432ae4421)
+![Attrition_by_Dept_Job_Role](https://github.com/RobinLWilson/Project_4/assets/140012839/4a3c4757-d4d4-4d2b-97b4-7c7d280bd112)
+
+
 
 ## Summary
 
