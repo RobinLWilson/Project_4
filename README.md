@@ -1,5 +1,19 @@
 Employee Attrition
 
+Overview and Project Goals:
+- examine if 
+Process:
+Data Sourcing and Cleaning:
+- found data set on Kaggle that had 1,000+ data points with over 40 features
+- downloaded csv and cleaned in Jupter notebook
+    - dropped columns
+    - dropped nulls
+    - deleted duplicates
+    - verified consistant data within columns using .unique()
+    - Object Variables translated into numerical representations
+        - Analyzed all object variables and categorized them into either: Binary, Relational, or Independent
+
+
 Data Analysts and Roles:
 - Janka Glenn: ![Gmail Badge](https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff&style=flat) ![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=flat)
   - Data Cleaning
@@ -27,6 +41,8 @@ Software:
     - Google Colab
     - TensorFlow
     - Scikit-Learn
+    - Logistic Regression
+    - Decision Tree Classifier
 Background:
 ![image](https://github.com/RobinLWilson/Project_4/assets/140012839/e5065d9d-e645-4932-9a9e-c52ad9ccc393)
 
