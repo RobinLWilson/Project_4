@@ -1,4 +1,5 @@
 # **<p>Employee Attrition</p>**
+![Screenshot 2024-02-13 130559](https://github.com/RobinLWilson/Project_4/assets/140012839/4f699f11-38ba-4ecd-986b-cf759c168a2a)
 
 
 ## Overview and Project Goals
