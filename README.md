@@ -11,7 +11,10 @@ Data Analysts and Roles:
   - Data Cleaning
   - Machine Learning
   - GitHub Pages
-
+https://webstockreview.net/images/line-clipart-wavy-3.png 
+Software:
+- Data Cleaning:
+    - 
 Background:
 ![image](https://github.com/RobinLWilson/Project_4/assets/140012839/e5065d9d-e645-4932-9a9e-c52ad9ccc393)
 
