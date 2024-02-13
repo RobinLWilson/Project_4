@@ -55,9 +55,15 @@ We used Tableu Public for the visualisation part. https://public.tableau.com/app
         - Analyzed all object variables and categorized them into either: Binary, Relational, or Independent
      
 ## Results
-![Age_Group_vs_Gender](https://github.com/RobinLWilson/Project_4/assets/140012839/efbf30c1-e6f0-438e-b6da-004432ae4421)
 ![Attrition_by_Dept_Job_Role](https://github.com/RobinLWilson/Project_4/assets/140012839/4a3c4757-d4d4-4d2b-97b4-7c7d280bd112)
-
+![Travel_Effect](https://github.com/RobinLWilson/Project_4/assets/140012839/816bce40-d574-486e-99f2-b184010fad23)
+![Distance_Effect](https://github.com/RobinLWilson/Project_4/assets/140012839/ae38573b-f3bf-4876-97b9-7ca09dc2fb4e)
+![Hourly_Rate_Age](https://github.com/RobinLWilson/Project_4/assets/140012839/b21414a6-73b1-46fc-8ce5-a328587876e6)
+![Job_Level_vs_Age_Group](https://github.com/RobinLWilson/Project_4/assets/140012839/c427e4ab-1290-4fe4-9eda-9c13ff7f3653)
+![Linegraph_by_Age](https://github.com/RobinLWilson/Project_4/assets/140012839/e0628dd2-a893-40a4-a80f-a3a4ecc622ef)
+![Monthly_Income](https://github.com/RobinLWilson/Project_4/assets/140012839/9110b69b-7560-442f-bacd-f692853c65fb)
+![Travel_Effect](https://github.com/RobinLWilson/Project_4/assets/140012839/dad74dc4-5f52-47f5-b366-ebef868ae320)
+![Work_Experience Dept](https://github.com/RobinLWilson/Project_4/assets/140012839/7d1ded02-8b6a-43c4-8aec-95edee119b6e)
 
 
 ## Summary
