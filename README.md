@@ -82,7 +82,7 @@ We used Tableu Public for the visualisation part. https://public.tableau.com/app
 
      
 ## Results
-![Dashboard_Tableau](https://github.com/RobinLWilson/Project_4/assets/140012839/80e6eb7c-a801-4b6d-ade0-80d6af0d2fdc)
+![Dashboard](https://github.com/RobinLWilson/Project_4/assets/140012839/d41f6485-8a7c-4e2d-84cb-a3f7dd29d3ff)
 
 ![Overal_Attrition](https://github.com/RobinLWilson/Project_4/assets/140012839/83ea9af2-6d15-4e32-9fba-136775ab54e9)
 ![Attrition_by_Dept_vs_Job_Role](https://github.com/RobinLWilson/Project_4/assets/140012839/5e6d766a-24e9-4604-8d14-0f7501f60b9a)
@@ -94,6 +94,9 @@ We used Tableu Public for the visualisation part. https://public.tableau.com/app
 ![Job_Level_vs_Age_Group](https://github.com/RobinLWilson/Project_4/assets/140012839/202ff760-8b7e-422f-aeda-6fc4f9716186)
 ![Monthly_Income](https://github.com/RobinLWilson/Project_4/assets/140012839/8458281f-27e4-4e48-84e3-b134bcf48218)
 ![Travel_Effect](https://github.com/RobinLWilson/Project_4/assets/140012839/560a77be-04b3-4502-8c58-31b865126a3f)
+![Training_Hours](https://github.com/RobinLWilson/Project_4/assets/140012839/a5b5afae-ed7d-43f1-bf5f-257b7ae4e3c4)
+![Over_Time](https://github.com/RobinLWilson/Project_4/assets/140012839/b4a88758-2f80-4c31-a280-76e2293d782c)
+
 
 
 
