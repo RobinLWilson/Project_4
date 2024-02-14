@@ -1,5 +1,4 @@
 # **<p>Employee Attrition</p>**
-![Screenshot 2024-02-13 130559](https://github.com/RobinLWilson/Project_4/assets/140012839/4f699f11-38ba-4ecd-986b-cf759c168a2a)
 
 
 ## Overview and Project Goals
@@ -82,15 +81,19 @@ We used Tableu Public for the visualisation part. https://public.tableau.com/app
 
      
 ## Results
-![Attrition_by_Dept_Job_Role](https://github.com/RobinLWilson/Project_4/assets/140012839/4a3c4757-d4d4-4d2b-97b4-7c7d280bd112)
-![Travel_Effect](https://github.com/RobinLWilson/Project_4/assets/140012839/816bce40-d574-486e-99f2-b184010fad23)
-![Distance_Effect](https://github.com/RobinLWilson/Project_4/assets/140012839/ae38573b-f3bf-4876-97b9-7ca09dc2fb4e)
-![Hourly_Rate_Age](https://github.com/RobinLWilson/Project_4/assets/140012839/b21414a6-73b1-46fc-8ce5-a328587876e6)
-![Job_Level_vs_Age_Group](https://github.com/RobinLWilson/Project_4/assets/140012839/c427e4ab-1290-4fe4-9eda-9c13ff7f3653)
-![Linegraph_by_Age](https://github.com/RobinLWilson/Project_4/assets/140012839/e0628dd2-a893-40a4-a80f-a3a4ecc622ef)
-![Monthly_Income](https://github.com/RobinLWilson/Project_4/assets/140012839/9110b69b-7560-442f-bacd-f692853c65fb)
-![Travel_Effect](https://github.com/RobinLWilson/Project_4/assets/140012839/dad74dc4-5f52-47f5-b366-ebef868ae320)
-![Work_Experience Dept](https://github.com/RobinLWilson/Project_4/assets/140012839/7d1ded02-8b6a-43c4-8aec-95edee119b6e)
+![Dashboard_Tableau](https://github.com/RobinLWilson/Project_4/assets/140012839/80e6eb7c-a801-4b6d-ade0-80d6af0d2fdc)
+
+![Overal_Attrition](https://github.com/RobinLWilson/Project_4/assets/140012839/83ea9af2-6d15-4e32-9fba-136775ab54e9)
+![Attrition_by_Dept_vs_Job_Role](https://github.com/RobinLWilson/Project_4/assets/140012839/5e6d766a-24e9-4604-8d14-0f7501f60b9a)
+![Attrition_by_Education_Field](https://github.com/RobinLWilson/Project_4/assets/140012839/02a61c04-35c4-4481-a591-49370b71d808)
+![Attrition_by_Salary_Group](https://github.com/RobinLWilson/Project_4/assets/140012839/8c5501b7-9b1e-44bf-abf5-83066d6588ee)
+![Commute](https://github.com/RobinLWilson/Project_4/assets/140012839/0f886f9f-5765-45cc-a668-74892f8311c6)
+![Hourly_Rate_vs_Age](https://github.com/RobinLWilson/Project_4/assets/140012839/6f8bc2bf-c46a-42b2-bb18-095ee947e921)
+![Job_Involvement_vs_Age_Group](https://github.com/RobinLWilson/Project_4/assets/140012839/f4cfd1ad-6fcc-4958-9e43-e5ff18871e1f)
+![Job_Level_vs_Age_Group](https://github.com/RobinLWilson/Project_4/assets/140012839/202ff760-8b7e-422f-aeda-6fc4f9716186)
+![Monthly_Income](https://github.com/RobinLWilson/Project_4/assets/140012839/8458281f-27e4-4e48-84e3-b134bcf48218)
+![Travel_Effect](https://github.com/RobinLWilson/Project_4/assets/140012839/560a77be-04b3-4502-8c58-31b865126a3f)
+
 
 
 ## Summary
