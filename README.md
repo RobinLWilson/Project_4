@@ -140,15 +140,14 @@ Conclusion:
 The findings from the chi-square analysis highlight significant associations within key employee-related features. To gain a comprehensive understanding, it is recommended to delve deeper into the background of the data, considering external factors such as Covid-19, geographic location, and company reputation. This nuanced analysis will provide valuable insights for strategic decision-making and workforce management.
 
 ## Data Analysts and Roles
-- [Janka Glenn](https://github.com/jankaglenn)  ![Gmail Badge][(https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff&style=flat)](mailto:jankaglenn@gmail.com) ![LinkedIn Badge][(https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=flat)](https://www.linkedin.com/in/janka-glenn-243934230/)
+- [Janka Glenn](https://github.com/jankaglenn)  [![Gmail Badge](https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff&style=flat)](mailto:jankaglenn@gmail.com) 
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=flat)]([https://www.linkedin.com/in/robin-wilson-0361ba283/](https://www.linkedin.com/in/janka-glenn-243934230/))
   - Data Cleaning
   - Tableau Dashboard
   - Visualizations
   - GitHub README
 
-- [Robin Wilson](https://github.com/RobinLWilson) ![Gmail Badge][(https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff&style=flat)](mailto:wilson.robin.leigh@gmail.com) ![LinkedIn Badge][(https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=flat)](https://www.linkedin.com/in/robin-wilson-0361ba283/)
-
-[Robin Wilson](https://github.com/RobinLWilson) 
+- [Robin Wilson](https://github.com/RobinLWilson) 
 [![Gmail Badge](https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff&style=flat)](mailto:wilson.robin.leigh@gmail.com) 
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=flat)](https://www.linkedin.com/in/robin-wilson-0361ba283/) 
   - Data Source Research
