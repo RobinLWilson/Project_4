@@ -130,6 +130,7 @@ While the model has reasonably high accuracy (85%), the precision and recall for
 
 <img width="327" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/04028763-1930-456d-b78a-c417f4e10feb">
 
+
 - Logistic Regression with Standard Scaler Results:
     - We Train/Test/Split the data into training and testing sets.
     - We then chose the Standard Scaler because it is good for when features are normally distributed & it the NN models see benefits.
@@ -139,6 +140,7 @@ These results told us that of all the people predicted to leave the company as '
 While the model has reasonably high accuracy (85%), the precision and recall for predicting attrition ('1') are relatively low, suggesting that the model may not perform well in identifying employees who are likely to leave the company.
 
 <img width="323" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/77c1e397-1982-4a3c-96c1-a9634b691877">
+
 
 Neural Network Models:
 - TensorFlow with MinMax Scaler
