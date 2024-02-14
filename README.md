@@ -32,15 +32,16 @@ Data Cleaning:
 
 - Then we set the index of the DataFrame to be 'EmployeeNumber'
 - Then we dropped the duplicate values which accounted for 7 data points. By using the ".count" feature, we identified there were nulls in the "YearsWithCurrentManager" variable.  After dropping the nulls, we verified no nulls remained by using "isna()".  
-- Next we needed to start converting all object datatypes into numerical values for the machine learning.  To begin, we identified all the object datatypes ('EmpID', 'AgeGroup', 'Attrition', 'BusinessTravel', 'Department', 'EducationField', 'Gender', 'JobRole', 'MaritalStatus', 'SalarySlab', 'OverTime').  We then looked at each object variable using ".unique()" in order to:
+- Next we needed to start converting all object datatypes into numerical values for the machine learning.  To begin, we identified all the object datatypes ('AgeGroup', 'Attrition', 'BusinessTravel', 'Department', 'EducationField', 'Gender', 'JobRole', 'MaritalStatus', 'SalarySlab', 'OverTime').  We then looked at each object variable using ".unique()" in order to:
     - correct inconsistent data (i.e. the 'Travel' column had 'Travel_Rarely' and 'Non-Travel')
-    - analyze the data and determine if the data is Binary, Relational/Ordinal, or Independent.  All data except for "JobRole" and "Department" were quickly analyzed, but after discussion, we decided that these alone were independent data, but together they became relational.  So we created a new column ("Department_Role") of the merged data from "JobRole" and "Department." 
- The columns were categorized as follows:    
+    - analyze the data and determine if the data is Binary, Relational/Ordinal, or Independent.  All data except for "JobRole" and "Department" were quickly analyzed; after discussion, we decided that these alone were independent data, but together they became relational.  So we created a new column ("Department_Role") of the merged data from "JobRole" and "Department." 
+ The features were categorized as follows:    
         - Binary: 'Attrition', 'Gender', 'OverTime'
         - Relational/Ordinal: 'AgeGroup', 'BusinessTravel', 'MaritalStatus', 'SalarySlab', 'Department_Role'
         - Independent: 'EducationField'
 - At this point the data was exported into a csv file for the visualizations.
-- We continued to prepare the data for the model by taking all the object variables from above and converting them to numberical values.
+
+- We continued to prepare the data for the statistical analysis & model by taking all the object variables from above and converting them to numberical values.
 - Converting the Binary data:
 
   <img width="469" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/c4e02098-24ee-46ea-8b18-cc8e188bae9d">
@@ -55,8 +56,9 @@ Data Cleaning:
    <img width="598" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/47cf6c5a-454d-4e3b-b515-82027377bf01">
    <img width="806" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/73f461da-3bd6-4785-810a-0fbad91432b2">
    
-- Converting the Indepedent data: Before using 'get_dummies' to convert 'EducationField', we dropped the final unnecessary columns: 'Department_Role', 'EmpID', 'JobRole', 'Department', 'MonthlyIncome'.  Then after verifying that 'EducationField' was the final object datatype, we applied 'get_dummies' to the dataframe.
+- Converting the Indepedent data: Before using 'get_dummies' to convert 'EducationField', we dropped the final unnecessary columns: 'Department_Role', 'JobRole', 'Department'.  Then after verifying that 'EducationField' was the final object datatype, we applied 'get_dummies' to the dataframe.
 - Finally we verified that all the object datatypes had been changed and that there were no nulls remaining in the data.
+
 ### 2. Exploratory Data Analysis (EDA)
 Descriptive Statistics: Provide summary statistics to describe the overall attrition rate and relevant metrics.
 Data Visualization: 
