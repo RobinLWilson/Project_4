@@ -1,1 +1,148 @@
-# Project_4
+# **<p>Employee Attrition</p>**
+
+
+## Overview and Project Goals
+
+Welcome to our Human Resources Attrition Analysis Project! This project focuses on utilizing data analytics to understand and analyze employee attrition within an organization. In other words, we want to understand why a person leaves a company because reducing turnover costs helps companies operate more efficiently. As a data analyst, our role is crucial in uncovering patterns, identifying key factors, and providing actionable insights to help the HR department make informed decisions.
+
+## Questions the team hopes to answer
+
+### Understand Attrition Trends
+Analyze historical data to identify patterns and trends related to employee attrition. Determine if there are specific time periods, departments, or roles more prone to attrition.
+
+### Identify Key Factors
+Explore the various factors that contribute to attrition, such as job satisfaction, work-life balance, compensation, and career growth. Identify which factors have the most significant impact.
+
+### Identify Future Attrition
+Predict if an employee might leave in the future, giving HR and management time to create incentives for high impact employees to remain with the company.
+
+## Project Structure
+### 1. Data Collection
+Data Source: 
+https://www.kaggle.com/datasets/samruddhi4040/hr-data-analytics  
+With over 1,400 data points and over 40 features, we were confident that even after cleaning the data we would have the minimum required 1,000 observations and 10 features.
+
+Data Cleaning: 
+- We downloaded the csv and conducted the cleaning process in Jupter notebook using python and pandas pd.  
+- We dropped the following unnecessary columns:
+    - 'DailyRate', 'HourlyRate', and 'MonthlyRate' because we will use the SalarySlab bins
+    - 'EmployeeCount' and 'EmployeeNumber' because we will use EmpID
+    - 'Over18' because all the employees were over 18
+    - 'RelationshipSatisfaction' because there was not enough information around this variable
+    - 'StandardHours' because all the employees had the same value of 80
+    - 'Age' because we will use the AgeGroup bins
+
+- Then we dropped the duplicate values which accounted for 7 data points. By using the ".count" feature, we identified there were nulls in the "YearsWithCurrentManager" variable.  After dropping the nulls, we verified no nulls remained by using "isna()".  
+- Next we needed to start converting all object datatypes into numerical values for the machine learning.  To begin, we identified all the object datatypes ('EmpID', 'AgeGroup', 'Attrition', 'BusinessTravel', 'Department', 'EducationField', 'Gender', 'JobRole', 'MaritalStatus', 'SalarySlab', 'OverTime').  We then looked at each object variable using ".unique()" in order to:
+    - correct inconsistent data (i.e. the 'Travel' column had 'Travel_Rarely' and 'Non-Travel')
+    - analyze the data and determine if the data is Binary, Relational/Ordinal, or Independent.  All data except for "JobRole" and "Department" were quickly analyzed, but after discussion, we decided that these alone were independent data, but together they became relational.  So we created a new column ("Department_Role") of the merged data from "JobRole" and "Department." 
+ The columns were categorized as follows:    
+        - Binary: 'Attrition', 'Gender', 'OverTime'
+        - Relational/Ordinal: 'AgeGroup', 'BusinessTravel', 'MaritalStatus', 'SalarySlab', 'Department_Role'
+        - Independent: 'EducationField'
+- At this point the data was exported into a csv file for the visualizations.
+- We continued to prepare the data for the model by taking all the object variables from above and converting them to numberical values.
+- Converting the Binary data:
+       <img width="469" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/c4e02098-24ee-46ea-8b18-cc8e188bae9d">
+- Converting the Relational/Ordinal data: We used mapping to assign the values in 'AgeGroup', 'BusinessTravel', 'MaritalStatus', 'SalarySlab'.
+       <img width="433" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/d14b8bc2-8f55-4d4e-b09c-e469ae255117">
+       For the 'Department_Role', the following additional steps were taken:
+          - The 'Department_Role' column was copied three times and renamed "Sales", "Human_Resources", and "Research_&_Development" respectively.  Then the columns were filtered on the data that began with the column's department name and all the other cells with filled with "None."  Then the remaining appropriate values were mapped and the "None" values were filled with a "NaN_placeholder."  Finally the NaN's were replaced with 0 and the entire column datatype was converted to an integer.
+          <img width="598" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/47cf6c5a-454d-4e3b-b515-82027377bf01">
+          <img width="806" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/73f461da-3bd6-4785-810a-0fbad91432b2">
+- Converting the Indepedent data: Before using 'get_dummies' to convert 'EducationField', we dropped the final unnecessary columns: 'Department_Role', 'EmpID', 'JobRole', 'Department', 'MonthlyIncome'.  Then after verifying that 'EducationField' was the final object datatype, we applied 'get_dummies' to the dataframe.
+- Finally we verified that all the object datatypes had been changed and that there were no nulls remaining in the data.
+### 2. Exploratory Data Analysis (EDA)
+Descriptive Statistics: Provide summary statistics to describe the overall attrition rate and relevant metrics.
+Data Visualization: 
+### 3. Feature Selection
+Identify Features: Select the most relevant features that impact attrition.
+Correlation Analysis: Analyze the correlation between different features.
+### 4. Predictive Modeling
+Model Selection: Choose appropriate models for predicting attrition.
+Training and Testing: Split the data into training and testing sets.
+Evaluation Metrics: Determine the evaluation metrics for assessing model performance.
+### 5. Interpretation and Recommendations
+Interpret Results: Explain the findings from the analysis and modeling.
+Recommendations: Provide actionable recommendations for reducing attrition based on the insights gained.
+Dependencies
+List any dependencies or software required to run the code and reproduce the analysis. Include versions to ensure compatibility.
+
+## How to Use
+Provide instructions on how to run the analysis, including any necessary scripts or commands.
+
+
+Develop predictive models to forecast potential attrition based on historical data. This will assist in proactively addressing issues and implementing retention strategies.
+
+## Visualization: 
+We used Tableu Public for the visualisation part. https://public.tableau.com/app/profile/janka.glenn/viz/Project_4_17074464774080/Dashboard3
+
+## Process:
+### Data Sourcing and Cleaning:
+
+     
+## Results
+![Dashboard_Tableau](https://github.com/RobinLWilson/Project_4/assets/140012839/80e6eb7c-a801-4b6d-ade0-80d6af0d2fdc)
+
+![Overal_Attrition](https://github.com/RobinLWilson/Project_4/assets/140012839/83ea9af2-6d15-4e32-9fba-136775ab54e9)
+![Attrition_by_Dept_vs_Job_Role](https://github.com/RobinLWilson/Project_4/assets/140012839/5e6d766a-24e9-4604-8d14-0f7501f60b9a)
+![Attrition_by_Education_Field](https://github.com/RobinLWilson/Project_4/assets/140012839/02a61c04-35c4-4481-a591-49370b71d808)
+![Attrition_by_Salary_Group](https://github.com/RobinLWilson/Project_4/assets/140012839/8c5501b7-9b1e-44bf-abf5-83066d6588ee)
+![Commute](https://github.com/RobinLWilson/Project_4/assets/140012839/0f886f9f-5765-45cc-a668-74892f8311c6)
+![Hourly_Rate_vs_Age](https://github.com/RobinLWilson/Project_4/assets/140012839/6f8bc2bf-c46a-42b2-bb18-095ee947e921)
+![Job_Involvement_vs_Age_Group](https://github.com/RobinLWilson/Project_4/assets/140012839/f4cfd1ad-6fcc-4958-9e43-e5ff18871e1f)
+![Job_Level_vs_Age_Group](https://github.com/RobinLWilson/Project_4/assets/140012839/202ff760-8b7e-422f-aeda-6fc4f9716186)
+![Monthly_Income](https://github.com/RobinLWilson/Project_4/assets/140012839/8458281f-27e4-4e48-84e3-b134bcf48218)
+![Travel_Effect](https://github.com/RobinLWilson/Project_4/assets/140012839/560a77be-04b3-4502-8c58-31b865126a3f)
+
+
+
+## Summary
+
+## What would we have done differently
+
+
+## Data Analysts and Roles
+- [Janka Glenn](https://github.com/jankaglenn)  ![Gmail Badge](https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff&style=flat) ![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=flat)
+  - Data Cleaning
+  - Tableau Dashboard
+  - GitHub Pages
+
+- [Robin Wilson](https://github.com/RobinLWilson)
+  - Data Source Research
+  - Data Cleaning
+  - Machine Learning
+  - GitHub Pages
+  
+
+## Software
+###  Data Cleaning:
+    - Python
+    - Jupyter Notebook
+    - Pandas library
+    - Numpy
+### Dashboard
+    - Tableau Public
+    - Microsoft PowerPoint
+### Machine Learning
+    - Google Colab
+    - TensorFlow
+    - Scikit-Learn
+    - Logistic Regression
+    - Decision Tree Classifier
+### Background
+![image](https://github.com/RobinLWilson/Project_4/assets/140012839/e5065d9d-e645-4932-9a9e-c52ad9ccc393)
+
+## Predictive Modeling
+
+![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat)
+ ![Tableau Badge](https://img.shields.io/badge/Tableau-E97627?logo=tableau&logoColor=fff&style=flat)
+![Google Colab Badge](https://img.shields.io/badge/Google%20Colab-F9AB00?logo=googlecolab&logoColor=fff&style=flat)
+![Jupyter Badge](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=fff&style=flat)
+![Microsoft Excel Badge](https://img.shields.io/badge/Microsoft%20Excel-217346?logo=microsoftexcel&logoColor=fff&style=flat)
+![GitHub Badge](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=flat)
+![TensorFlow Badge](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=fff&style=flat)
+![scikit-learn Badge](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=fff&style=flat)
+![pandas Badge](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=fff&style=flat)
+![NumPy Badge](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=fff&style=flat)
+![Microsoft PowerPoint Badge](https://img.shields.io/badge/Microsoft%20PowerPoint-B7472A?logo=microsoftpowerpoint&logoColor=fff&style=flat)
