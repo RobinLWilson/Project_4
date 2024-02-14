@@ -147,6 +147,10 @@ The findings from the chi-square analysis highlight significant associations wit
   - GitHub README
 
 - [Robin Wilson](https://github.com/RobinLWilson) ![Gmail Badge][(https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff&style=flat)](mailto:wilson.robin.leigh@gmail.com) ![LinkedIn Badge][(https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=flat)](https://www.linkedin.com/in/robin-wilson-0361ba283/)
+
+[Robin Wilson](https://github.com/RobinLWilson) 
+[![Gmail Badge](https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff&style=flat)](mailto:wilson.robin.leigh@gmail.com) 
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=flat)](https://www.linkedin.com/in/robin-wilson-0361ba283/) 
   - Data Source Research
   - Data Cleaning
   - Machine Learning
