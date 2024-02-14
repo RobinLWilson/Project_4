@@ -82,6 +82,14 @@ We used Tableu Public for the visualisation part. https://public.tableau.com/app
 
      
 ## Results
+
+As a data analyst professional, we have elucidated key visualizations that shed light on pertinent workforce trends. The organization currently comprises 1473 employees, exhibiting an attrition rate of 16% with an average employee age of 37.
+Our analysis indicates a notable correlation between attrition and frequent business travel. However, no statistically significant association was observed between attrition and performance rating, as evidenced by a Chi-square statistic of 0.0004802863597185681 and a P-value of 0.9825154111364345.
+Furthermore, there is a substantial link between attrition and age groups. Employees within the 26-35 age range exhibit a higher propensity to leave, suggesting a potential association with entry-level positions.
+Our findings also reveal a significant association between attrition and the Research & Development department, as indicated by a Chi-square statistic of 1.123879905034171 and a P-value of 0.28908454133190753. Conversely, no significant correlation was identified between attrition and gender.
+Moreover, attrition is notably associated with salary slabs, with entry-level positions posing a higher risk than senior roles. This association follows a descending trend, indicating that higher salaries are associated with a smaller likelihood of attrition.
+Specifically, the sales department is experiencing higher attrition rates. Additionally, our analysis highlights that overtime is not favorable in terms of attrition. These insights provide valuable information for strategic workforce planning and retention efforts within the organization.
+
 ![Dashboard](https://github.com/RobinLWilson/Project_4/assets/140012839/d41f6485-8a7c-4e2d-84cb-a3f7dd29d3ff)
 
 ![Overal_Attrition](https://github.com/RobinLWilson/Project_4/assets/140012839/83ea9af2-6d15-4e32-9fba-136775ab54e9)
@@ -103,18 +111,6 @@ We used Tableu Public for the visualisation part. https://public.tableau.com/app
 ## Summary
 
 ## What would we have done differently
-Based on chi-square value and low p-value we received results proving a statistical significants, therefore we need to analyze these features in the future.
-
-- EnvironmentSatisfaction
-- JobSatisfaction
-- MaritalStatus
-- StockOptionLevel
-- WorkLifeBalance
-- YearsAtCompany
-- YearsInCurrentRole
-
-We would do deeper analysis into the backround of the data, to see if there is any coorelation about Covid-19 and what part of the world the company is from and about its reputation. 
-
 This report presents a comprehensive analysis of key employee-related features within our dataset, utilizing chi-square statistics and associated p-values to establish statistical significance. The following features have demonstrated notable statistical associations:
 
 - EnvironmentSatisfaction
