@@ -34,10 +34,15 @@ Data Cleaning:
     - 'Age' because we will use the AgeGroup bins
 
 - Then we dropped the duplicate values which accounted for 7 data points. By using the ".count" feature, we identified there were nulls in the "YearsWithCurrentManager" variable.  After dropping the nulls, we verified no nulls remained by using "isna()".  
-5. Next we needed to start converting all object datatypes into numerical values.  To begin, we 
-    - verified consistant data within columns using .unique()
-    - Object Variables translated into numerical representations
-        - Analyzed all object variables and categorized them into either: Binary, Relational, or Independent
+- Next we needed to start converting all object datatypes into numerical values for the machine learning.  To begin, we identified all the object datatypes ('EmpID', 'AgeGroup', 'Attrition', 'BusinessTravel', 'Department', 'EducationField', 'Gender', 'JobRole', 'MaritalStatus', 'SalarySlab', 'OverTime').  We then looked at each object variable using ".unique()" in order to:
+    - correct inconsistent data (i.e. the 'Travel' column had 'Travel_Rarely' and 'Non-Travel')
+    - analyze the data and determine if the data is Binary, Relational, or Independent.  All data except for "JobRole" and "Department" were quickly analyzed, but after discussion, we decided that these alone were independent data, but together they became relational.  So we created a new column ("Department_Role") of the merged data from "JobRole" and "Department." 
+ The columns were categorized as follows:    
+        - Binary: 'Attrition', 'Gender', 'OverTime'
+        - Relational: 'AgeGroup', 'BusinessTravel', 'MaritalStatus', 'SalarySlab', 'Department_Role'
+        - Independent: 'EducationField'
+- At this point the data was exported into a csv file for the visualizations.
+- We continued to prepare the data for the model by taking all the object variables from above and converting them to numberical values.
 ### 2. Exploratory Data Analysis (EDA)
 Descriptive Statistics: Provide summary statistics to describe the overall attrition rate and relevant metrics.
 Data Visualization: 
