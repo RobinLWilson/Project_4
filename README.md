@@ -103,7 +103,44 @@ We used Tableu Public for the visualisation part. https://public.tableau.com/app
 ## Summary
 
 ## What would we have done differently
+Based on chi-square value and low p-value we received results proving a statistical significants, therefore we need to analyze these features in the future.
 
+- EnvironmentSatisfaction
+- JobSatisfaction
+- MaritalStatus
+- StockOptionLevel
+- WorkLifeBalance
+- YearsAtCompany
+- YearsInCurrentRole
+
+We would do deeper analysis into the backround of the data, to see if there is any coorelation about Covid-19 and what part of the world the company is from and about its reputation. 
+
+This report presents a comprehensive analysis of key employee-related features within our dataset, utilizing chi-square statistics and associated p-values to establish statistical significance. The following features have demonstrated notable statistical associations:
+
+- EnvironmentSatisfaction
+- JobSatisfaction
+- MaritalStatus
+- StockOptionLevel
+- WorkLifeBalance
+- YearsAtCompany
+- YearsInCurrentRole
+  
+Recommendations for Future Analysis:
+
+Given the observed statistical significance, it is imperative to conduct a more in-depth analysis into the background of the data. The following areas are recommended for further exploration:
+
+Covid-19 Impact:
+
+Investigate the potential influence of the Covid-19 pandemic on employee satisfaction and organizational dynamics. Assess how external factors may have contributed to the observed statistical relationships.
+Geographic Influence:
+
+Explore regional variations within the dataset to identify potential correlations between employee features and the geographic location of the company. Consider cultural, economic, and social factors that may impact employee satisfaction.
+Company Reputation:
+
+Analyze the dataset in relation to the reputation of the company. Assess whether there are discernible patterns indicating a correlation between employee features and the overall perception of the organization.
+Conclusion:
+
+The findings from the chi-square analysis highlight significant associations within key employee-related features. To gain a comprehensive understanding, it is recommended to delve deeper into the background of the data, considering external factors such as Covid-19, geographic location, and company reputation. This nuanced analysis will provide valuable insights for strategic decision-making and workforce management.
 
 ## Data Analysts and Roles
 - [Janka Glenn](https://github.com/jankaglenn)  ![Gmail Badge](https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff&style=flat) ![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=flat)
