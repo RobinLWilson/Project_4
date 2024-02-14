@@ -11,7 +11,7 @@ Welcome to our Human Resources Attrition Analysis Project! This project focuses 
 Analyze historical data to identify patterns and trends related to employee attrition. Determine if there are specific time periods, departments, or roles more prone to attrition.
 
 ### Identify Key Factors
-Explore the various factors that contribute to attrition, such as job satisfaction, work-life balance, compensation, and career growth. Identify which factors have the most significant impact.
+Explore the various factors that contribute to attrition, such as business travel, job roles, age group, compensation, and career growth. Identify which factors have the most significant impact.
 
 ### Identify Future Attrition
 Predict if an employee might leave in the future, giving HR and management time to create incentives for high impact employees to remain with the company.
@@ -19,7 +19,8 @@ Predict if an employee might leave in the future, giving HR and management time 
 ## Project Structure
 ### 1. Data Collection
 Data Source: 
-https://www.kaggle.com/datasets/samruddhi4040/hr-data-analytics  
+https://www.kaggle.com/datasets/samruddhi4040/hr-data-analytics 
+
 With over 1,400 data points and over 40 features, we were confident that even after cleaning the data we would have the minimum required 1,000 observations and 10 features.
 
 Data Cleaning: 
@@ -43,13 +44,19 @@ Data Cleaning:
 - At this point the data was exported into a csv file for the visualizations.
 - We continued to prepare the data for the model by taking all the object variables from above and converting them to numberical values.
 - Converting the Binary data:
-       <img width="469" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/c4e02098-24ee-46ea-8b18-cc8e188bae9d">
+
+  <img width="469" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/c4e02098-24ee-46ea-8b18-cc8e188bae9d">
+  
 - Converting the Relational/Ordinal data: We used mapping to assign the values in 'AgeGroup', 'BusinessTravel', 'MaritalStatus', 'SalarySlab'.
-       <img width="433" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/d14b8bc2-8f55-4d4e-b09c-e469ae255117">
-       For the 'Department_Role', the following additional steps were taken:
-          - The 'Department_Role' column was copied three times and renamed "Sales", "Human_Resources", and "Research_&_Development" respectively.  Then the columns were filtered on the data that began with the column's department name and all the other cells with filled with "None."  Then the remaining appropriate values were mapped and the "None" values were filled with a "NaN_placeholder."  Finally the NaN's were replaced with 0 and the entire column datatype was converted to an integer.
-          <img width="598" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/47cf6c5a-454d-4e3b-b515-82027377bf01">
-          <img width="806" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/73f461da-3bd6-4785-810a-0fbad91432b2">
+  
+  <img width="433" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/d14b8bc2-8f55-4d4e-b09c-e469ae255117">
+
+  For the 'Department_Role', the following additional steps were taken:
+- The 'Department_Role' column was copied three times and renamed "Sales", "Human_Resources", and "Research_&_Development" respectively.  Then the columns were filtered on the data that began with the column's department name and all the other cells with filled with "None."  Then the remaining appropriate values were mapped and the "None" values were filled with a "NaN_placeholder."  Finally the NaN's were replaced with 0 and the entire column datatype was converted to an integer.
+- 
+   <img width="598" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/47cf6c5a-454d-4e3b-b515-82027377bf01">
+   <img width="806" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/73f461da-3bd6-4785-810a-0fbad91432b2">
+   
 - Converting the Indepedent data: Before using 'get_dummies' to convert 'EducationField', we dropped the final unnecessary columns: 'Department_Role', 'EmpID', 'JobRole', 'Department', 'MonthlyIncome'.  Then after verifying that 'EducationField' was the final object datatype, we applied 'get_dummies' to the dataframe.
 - Finally we verified that all the object datatypes had been changed and that there were no nulls remaining in the data.
 ### 2. Exploratory Data Analysis (EDA)
@@ -75,12 +82,8 @@ Provide instructions on how to run the analysis, including any necessary scripts
 Develop predictive models to forecast potential attrition based on historical data. This will assist in proactively addressing issues and implementing retention strategies.
 
 ## Visualization: 
-We used Tableu Public for the visualisation part. https://public.tableau.com/app/profile/janka.glenn/viz/Project_4_17074464774080/Dashboard3
-
-## Process:
-### Data Sourcing and Cleaning:
-
-     
+We used Tableu Public for the visualisation part. https://public.tableau.com/app/profile/janka.glenn/viz/Project_4_17074464774080/Dashboard
+  
 ## Results
 
 As a data analyst professional, we have elucidated key visualizations that shed light on pertinent workforce trends. The organization currently comprises 1473 employees, exhibiting an attrition rate of 16% with an average employee age of 37.
@@ -106,8 +109,6 @@ Specifically, the sales department is experiencing higher attrition rates. Addit
 ![Over_Time](https://github.com/RobinLWilson/Project_4/assets/140012839/b4a88758-2f80-4c31-a280-76e2293d782c)
 
 
-
-
 ## Summary
 
 ## What would we have done differently
@@ -128,6 +129,7 @@ Given the observed statistical significance, it is imperative to conduct a more 
 Covid-19 Impact:
 
 Investigate the potential influence of the Covid-19 pandemic on employee satisfaction and organizational dynamics. Assess how external factors may have contributed to the observed statistical relationships.
+
 Geographic Influence:
 
 Explore regional variations within the dataset to identify potential correlations between employee features and the geographic location of the company. Consider cultural, economic, and social factors that may impact employee satisfaction.
@@ -172,7 +174,7 @@ The findings from the chi-square analysis highlight significant associations wit
 ## Predictive Modeling
 
 ![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat)
- ![Tableau Badge](https://img.shields.io/badge/Tableau-E97627?logo=tableau&logoColor=fff&style=flat)
+![Tableau Badge](https://img.shields.io/badge/Tableau-E97627?logo=tableau&logoColor=fff&style=flat)
 ![Google Colab Badge](https://img.shields.io/badge/Google%20Colab-F9AB00?logo=googlecolab&logoColor=fff&style=flat)
 ![Jupyter Badge](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=fff&style=flat)
 ![Microsoft Excel Badge](https://img.shields.io/badge/Microsoft%20Excel-217346?logo=microsoftexcel&logoColor=fff&style=flat)
