@@ -3,18 +3,15 @@
 
 ## Overview and Project Goals
 
-Welcome to our Human Resources Attrition Analysis Project! This project focuses on utilizing data analytics to understand and analyze employee attrition within an organization. In other words, we want to understand why a person leaves a company because reducing turnover costs helps companies operate more efficiently. As a data analyst, our role is crucial in uncovering patterns, identifying key factors, and providing actionable insights to help the HR department make informed decisions.
+Welcome to our Human Resources Attrition Analysis Project! This project focuses on utilizing data analytics to understand and analyze employee attrition within an organization. In other words, we want to understand why a person leaves a company because reducing turnover costs helps companies operate more efficiently. As data analysts, our role is crucial in identifying key factors, and providing actionable insights to help the HR department make informed decisions.
 
 ## Questions the team hopes to answer
 
-### Understand Attrition Trends
-Analyze historical data to identify patterns and trends related to employee attrition. Determine if there are specific time periods, departments, or roles more prone to attrition.
-
-### Identify Key Factors
-Explore the various factors that contribute to attrition, such as business travel, job roles, age group, compensation, and career growth. Identify which factors have the most significant impact.
+### Identify Key Contributors to Attrition
+We want to explore the various factors that contribute to attrition, such as business travel, job roles, age, compensation, etc and identify which factors have the most significant impact.
 
 ### Identify Future Attrition
-Predict if an employee might leave in the future, giving HR and management time to create incentives for high impact employees to remain with the company.
+Ideally we want to predict if an employee is going to leave in the future.  This gives HR and management time to create incentives for high impact employees to remain with the company, thus reducing turnover costs.
 
 ## Project Structure
 ### 1. Data Collection
@@ -59,37 +56,13 @@ Data Cleaning:
 - Converting the Indepedent data: Before using 'get_dummies' to convert 'EducationField', we dropped the final unnecessary columns: 'Department_Role', 'JobRole', 'Department'.  Then after verifying that 'EducationField' was the final object datatype, we applied 'get_dummies' to the dataframe.
 - Finally we verified that all the object datatypes had been changed and that there were no nulls remaining in the data.
 
-### 2. Exploratory Data Analysis (EDA)
-We conducted the Chi2 test on Attrition and each feature to determine the statistically significant variables.
+### 2. Exploratory Data Analysis (EDA) &  Data Visualizations
+We conducted the Chi2 test on Attrition and each feature to determine the statistically significant variables.  The following table details our results:
 <img width="442" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/098c3408-76a8-46f9-9c4e-b7e97a276e2c">
 
-Data Visualization: 
-### 3. Predictive Modeling
-Model Selection: Choose appropriate models for predicting attrition.
-Training and Testing: Split the data into training and testing sets.
-Evaluation Metrics: Determine the evaluation metrics for assessing model performance.
+This was done to drive and focus our visualizations (created in Tableau Public) that shed light on pertinent workforce realities. https://public.tableau.com/app/profile/janka.glenn/viz/Project_4_17074464774080/Dashboard  
 
-
-### 4. Interpretation and Recommendations
-Interpret Results: Explain the findings from the analysis and modeling.
-<img width="736" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/738b50e3-6298-41bb-9f94-6427b8863ee4">
-
-Recommendations: Provide actionable recommendations for reducing attrition based on the insights gained.
-Dependencies
-List any dependencies or software required to run the code and reproduce the analysis. Include versions to ensure compatibility.
-
-## How to Use
-Provide instructions on how to run the analysis, including any necessary scripts or commands.
-
-
-Develop predictive models to forecast potential attrition based on historical data. This will assist in proactively addressing issues and implementing retention strategies.
-
-## Visualization: 
-We used Tableu Public for the visualisation part. https://public.tableau.com/app/profile/janka.glenn/viz/Project_4_17074464774080/Dashboard
-  
-## Results
-
-As a data analyst professional, we have elucidated key visualizations that shed light on pertinent workforce trends. The organization currently comprises 1473 employees, exhibiting an attrition rate of 16% with an average employee age of 37.
+The organization currently comprises 1473 employees, exhibiting an attrition rate of 16% with an average employee age of 37.
 Our analysis indicates a notable correlation between attrition and frequent business travel. However, no statistically significant association was observed between attrition and performance rating, as evidenced by a Chi-square statistic of 0.0004802863597185681 and a P-value of 0.9825154111364345.
 Furthermore, there is a substantial link between attrition and age groups. Employees within the 26-35 age range exhibit a higher propensity to leave, suggesting a potential association with entry-level positions.
 Our findings also reveal a significant association between attrition and the Research & Development department, as indicated by a Chi-square statistic of 1.123879905034171 and a P-value of 0.28908454133190753. Conversely, no significant correlation was identified between attrition and gender.
@@ -110,6 +83,34 @@ Specifically, the sales department is experiencing higher attrition rates. Addit
 ![Travel_Effect](https://github.com/RobinLWilson/Project_4/assets/140012839/560a77be-04b3-4502-8c58-31b865126a3f)
 ![Training_Hours](https://github.com/RobinLWilson/Project_4/assets/140012839/a5b5afae-ed7d-43f1-bf5f-257b7ae4e3c4)
 ![Over_Time](https://github.com/RobinLWilson/Project_4/assets/140012839/b4a88758-2f80-4c31-a280-76e2293d782c)
+
+
+### 3.
+
+### 4. Predictive Modeling
+Model Selection: Choose appropriate models for predicting attrition.
+Training and Testing: Split the data into training and testing sets.
+Evaluation Metrics: Determine the evaluation metrics for assessing model performance.
+
+
+### 4. Interpretation and Recommendations
+Interpret Results: Explain the findings from the analysis and modeling.
+<img width="736" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/738b50e3-6298-41bb-9f94-6427b8863ee4">
+
+Recommendations: Provide actionable recommendations for reducing attrition based on the insights gained.
+Dependencies
+List any dependencies or software required to run the code and reproduce the analysis. Include versions to ensure compatibility.
+
+## How to Use
+Provide instructions on how to run the analysis, including any necessary scripts or commands.
+
+
+Develop predictive models to forecast potential attrition based on historical data. This will assist in proactively addressing issues and implementing retention strategies.
+
+## Visualization: 
+
+  
+
 
 
 ## Summary
