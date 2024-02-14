@@ -45,8 +45,12 @@ Data Cleaning:
 - We continued to prepare the data for the model by taking all the object variables from above and converting them to numberical values.
 - Converting the Binary data:
        <img width="469" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/c4e02098-24ee-46ea-8b18-cc8e188bae9d">
-- Converting the Relational/Ordinal data: We used mapping to assign the values.
+- Converting the Relational/Ordinal data: We used mapping to assign the values in 'AgeGroup', 'BusinessTravel', 'MaritalStatus', 'SalarySlab'.
        <img width="433" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/d14b8bc2-8f55-4d4e-b09c-e469ae255117">
+       For the 'Department_Role', the following additional steps were taken:
+          - The 'Department_Role' column was copied three times and renamed "Sales", "Human_Resources", and "Research_&_Development" respectively.  Then the columns were filtered on the data that began with the column's department name and all the other cells with filled with "None."  Then the remaining appropriate values were mapped and the "None" values were filled with a "NaN_placeholder."  Finally the NaN's were replaced with 0 and the entire column datatype was converted to an integer.
+          <img width="598" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/47cf6c5a-454d-4e3b-b515-82027377bf01">
+          <img width="806" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/73f461da-3bd6-4785-810a-0fbad91432b2">
 - Converting the Indepedent data: Used 'get_dummies'
 ### 2. Exploratory Data Analysis (EDA)
 Descriptive Statistics: Provide summary statistics to describe the overall attrition rate and relevant metrics.
