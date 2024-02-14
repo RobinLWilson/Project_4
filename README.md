@@ -58,6 +58,7 @@ Data Cleaning:
 
 ### 2. Exploratory Data Analysis (EDA) &  Data Visualizations
 We conducted the Chi2 test on Attrition and each feature to determine the statistically significant variables.  The following table details our results:
+
 <img width="442" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/098c3408-76a8-46f9-9c4e-b7e97a276e2c">
 
 This was done to drive and focus our visualizations (created in Tableau Public) that shed light on pertinent workforce realities. https://public.tableau.com/app/profile/janka.glenn/viz/Project_4_17074464774080/Dashboard  
@@ -84,16 +85,11 @@ Specifically, the sales department is experiencing higher attrition rates. Addit
 ![Training_Hours](https://github.com/RobinLWilson/Project_4/assets/140012839/a5b5afae-ed7d-43f1-bf5f-257b7ae4e3c4)
 ![Over_Time](https://github.com/RobinLWilson/Project_4/assets/140012839/b4a88758-2f80-4c31-a280-76e2293d782c)
 
-
-### 3.
-
-### 4. Predictive Modeling
+### 3. Predictive Modeling and Results
 Model Selection: Choose appropriate models for predicting attrition.
 Training and Testing: Split the data into training and testing sets.
 Evaluation Metrics: Determine the evaluation metrics for assessing model performance.
 
-
-### 4. Interpretation and Recommendations
 Interpret Results: Explain the findings from the analysis and modeling.
 Logistic Regression with Min/Max Scaler:
 <img width="327" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/04028763-1930-456d-b78a-c417f4e10feb">
@@ -104,20 +100,17 @@ Logistic Regression with Standard Scaler:
 Modeling Results After Each Optimization:
 <img width="736" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/738b50e3-6298-41bb-9f94-6427b8863ee4">
 
+### 4. Recommendations
 Recommendations: Provide actionable recommendations for reducing attrition based on the insights gained.
 Dependencies
 List any dependencies or software required to run the code and reproduce the analysis. Include versions to ensure compatibility.
 
-## How to Use
-Provide instructions on how to run the analysis, including any necessary scripts or commands.
 
 
 Develop predictive models to forecast potential attrition based on historical data. This will assist in proactively addressing issues and implementing retention strategies.
 
 
-## Summary
-
-## What would we have done differently
+### 5. Future Research
 This report presents a comprehensive analysis of key employee-related features within our dataset, utilizing chi-square statistics and associated p-values to establish statistical significance. The following features have demonstrated notable statistical associations:
 
 - EnvironmentSatisfaction
