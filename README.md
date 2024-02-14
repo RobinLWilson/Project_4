@@ -66,10 +66,12 @@ Data Visualization:
 Model Selection: Choose appropriate models for predicting attrition.
 Training and Testing: Split the data into training and testing sets.
 Evaluation Metrics: Determine the evaluation metrics for assessing model performance.
-<img width="734" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/2fdfdbec-60fe-45cf-ba75-83777492b676">
+
 
 ### 4. Interpretation and Recommendations
 Interpret Results: Explain the findings from the analysis and modeling.
+<img width="736" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/738b50e3-6298-41bb-9f94-6427b8863ee4">
+
 Recommendations: Provide actionable recommendations for reducing attrition based on the insights gained.
 Dependencies
 List any dependencies or software required to run the code and reproduce the analysis. Include versions to ensure compatibility.
