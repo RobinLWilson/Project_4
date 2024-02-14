@@ -11,7 +11,7 @@ Welcome to our Human Resources Attrition Analysis Project! This project focuses 
 We want to explore the various factors that contribute to attrition, such as business travel, job roles, age, compensation, etc and identify which factors have the most significant impact.
 
 ### Identify Future Attrition
-Ideally we want to predict if an employee is going to leave in the future.  This gives HR and management time to create incentives for high impact employees to remain with the company, thus reducing turnover costs.
+We want to predict if an employee is going to leave in the future.  This information gives HR and management time to create incentives for high-impact employees to remain with the company, thus reducing turnover costs.
 
 ## Project Structure
 ### 1. Data Collection
@@ -88,13 +88,17 @@ Specifically, the sales department is experiencing higher attrition rates. Addit
 ### 3. Predictive Modeling and Results
 Model Selection: Choose appropriate models for predicting attrition.
 Training and Testing: Split the data into training and testing sets.
-Evaluation Metrics: Determine the evaluation metrics for assessing model performance.
 
-Interpret Results: Explain the findings from the analysis and modeling.
-Logistic Regression with Min/Max Scaler:
+Logistic Regression with Min/Max Scaler Results:
+These results told us that of all the people predicted to leave the company as '1' (attrition), only 60% were actually true positives (i.e., employees who left the company). This indicates that the model has a relatively low precision for predicting attrition.
+
+While the model has reasonably high accuracy (85%), the precision and recall for predicting attrition ('1') are relatively low, suggesting that the model may not perform well in identifying employees who are likely to leave the company.
 <img width="327" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/04028763-1930-456d-b78a-c417f4e10feb">
 
 Logistic Regression with Standard Scaler:
+These results told us that of all the people predicted to leave the company as '1' (attrition), only 59% were actually true positives (i.e., employees who left the company). This indicates that the model has a relatively low precision for predicting attrition.
+
+While the model has reasonably high accuracy (85%), the precision and recall for predicting attrition ('1') are relatively low, suggesting that the model may not perform well in identifying employees who are likely to leave the company.
 <img width="323" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/77c1e397-1982-4a3c-96c1-a9634b691877">
 
 Modeling Results After Each Optimization:
