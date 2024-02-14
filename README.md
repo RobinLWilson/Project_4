@@ -26,13 +26,11 @@ With over 1,400 data points and over 40 features, we were confident that even af
 Data Cleaning: 
 - We downloaded the csv and conducted the cleaning process in Jupter notebook using python and pandas pd.  
 - We dropped the following unnecessary columns:
-    - 'DailyRate', 'HourlyRate', and 'MonthlyRate' because we will use the SalarySlab bins
-    - 'EmployeeCount' and 'EmployeeNumber' because we will use EmpID
+    - 'EmployeeCount' and 'EmpID' because we will use 'EmployeeNumber'
     - 'Over18' because all the employees were over 18
-    - 'RelationshipSatisfaction' because there was not enough information around this variable
     - 'StandardHours' because all the employees had the same value of 80
-    - 'Age' because we will use the AgeGroup bins
 
+- Then we set the index of the DataFrame to be 'EmployeeNumber'
 - Then we dropped the duplicate values which accounted for 7 data points. By using the ".count" feature, we identified there were nulls in the "YearsWithCurrentManager" variable.  After dropping the nulls, we verified no nulls remained by using "isna()".  
 - Next we needed to start converting all object datatypes into numerical values for the machine learning.  To begin, we identified all the object datatypes ('EmpID', 'AgeGroup', 'Attrition', 'BusinessTravel', 'Department', 'EducationField', 'Gender', 'JobRole', 'MaritalStatus', 'SalarySlab', 'OverTime').  We then looked at each object variable using ".unique()" in order to:
     - correct inconsistent data (i.e. the 'Travel' column had 'Travel_Rarely' and 'Non-Travel')
@@ -62,14 +60,13 @@ Data Cleaning:
 ### 2. Exploratory Data Analysis (EDA)
 Descriptive Statistics: Provide summary statistics to describe the overall attrition rate and relevant metrics.
 Data Visualization: 
-### 3. Feature Selection
-Identify Features: Select the most relevant features that impact attrition.
-Correlation Analysis: Analyze the correlation between different features.
-### 4. Predictive Modeling
+### 3. Predictive Modeling
 Model Selection: Choose appropriate models for predicting attrition.
 Training and Testing: Split the data into training and testing sets.
 Evaluation Metrics: Determine the evaluation metrics for assessing model performance.
-### 5. Interpretation and Recommendations
+<img width="734" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/2fdfdbec-60fe-45cf-ba75-83777492b676">
+
+### 4. Interpretation and Recommendations
 Interpret Results: Explain the findings from the analysis and modeling.
 Recommendations: Provide actionable recommendations for reducing attrition based on the insights gained.
 Dependencies
