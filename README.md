@@ -36,13 +36,18 @@ Data Cleaning:
 - Then we dropped the duplicate values which accounted for 7 data points. By using the ".count" feature, we identified there were nulls in the "YearsWithCurrentManager" variable.  After dropping the nulls, we verified no nulls remained by using "isna()".  
 - Next we needed to start converting all object datatypes into numerical values for the machine learning.  To begin, we identified all the object datatypes ('EmpID', 'AgeGroup', 'Attrition', 'BusinessTravel', 'Department', 'EducationField', 'Gender', 'JobRole', 'MaritalStatus', 'SalarySlab', 'OverTime').  We then looked at each object variable using ".unique()" in order to:
     - correct inconsistent data (i.e. the 'Travel' column had 'Travel_Rarely' and 'Non-Travel')
-    - analyze the data and determine if the data is Binary, Relational, or Independent.  All data except for "JobRole" and "Department" were quickly analyzed, but after discussion, we decided that these alone were independent data, but together they became relational.  So we created a new column ("Department_Role") of the merged data from "JobRole" and "Department." 
+    - analyze the data and determine if the data is Binary, Relational/Ordinal, or Independent.  All data except for "JobRole" and "Department" were quickly analyzed, but after discussion, we decided that these alone were independent data, but together they became relational.  So we created a new column ("Department_Role") of the merged data from "JobRole" and "Department." 
  The columns were categorized as follows:    
         - Binary: 'Attrition', 'Gender', 'OverTime'
-        - Relational: 'AgeGroup', 'BusinessTravel', 'MaritalStatus', 'SalarySlab', 'Department_Role'
+        - Relational/Ordinal: 'AgeGroup', 'BusinessTravel', 'MaritalStatus', 'SalarySlab', 'Department_Role'
         - Independent: 'EducationField'
 - At this point the data was exported into a csv file for the visualizations.
 - We continued to prepare the data for the model by taking all the object variables from above and converting them to numberical values.
+- Converting the Binary data:
+       <img width="469" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/c4e02098-24ee-46ea-8b18-cc8e188bae9d">
+- Converting the Relational/Ordinal data: We used mapping to assign the values.
+       <img width="433" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/d14b8bc2-8f55-4d4e-b09c-e469ae255117">
+- Converting the Indepedent data: Used 'get_dummies'
 ### 2. Exploratory Data Analysis (EDA)
 Descriptive Statistics: Provide summary statistics to describe the overall attrition rate and relevant metrics.
 Data Visualization: 
