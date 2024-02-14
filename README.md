@@ -79,14 +79,15 @@ We conducted the Chi2 test on Attrition and each feature to determine the statis
 
 This was done to drive and focus our visualizations (created in Tableau Public) that shed light on pertinent workforce realities. https://public.tableau.com/app/profile/janka.glenn/viz/Project_4_17074464774080/Dashboard  
 
-The organization currently comprises 1473 employees, exhibiting an attrition rate of 16% with an average employee age of 37.
-Our analysis indicates a notable correlation between attrition and frequent business travel. However, no statistically significant association was observed between attrition and performance rating, as evidenced by a Chi-square statistic of 0.0004802863597185681 and a P-value of 0.9825154111364345.
+![Dashboard](https://github.com/RobinLWilson/Project_4/assets/140012839/d41f6485-8a7c-4e2d-84cb-a3f7dd29d3ff)
+
+The organization currently comprises 1473 employees, exhibiting an attrition rate of 16% with an average employee age of 37. 
+There was no statistically significant association was observed between attrition and performance rating, as evidenced by a Chi-square statistic of 0.0004802863597185681 and a P-value of 0.9825154111364345. 
 Furthermore, there is a substantial link between attrition and age groups. Employees within the 26-35 age range exhibit a higher propensity to leave, suggesting a potential association with entry-level positions.
 Our findings also reveal a significant association between attrition and the Research & Development department, as indicated by a Chi-square statistic of 1.123879905034171 and a P-value of 0.28908454133190753. Conversely, no significant correlation was identified between attrition and gender.
 Moreover, attrition is notably associated with salary slabs, with entry-level positions posing a higher risk than senior roles. This association follows a descending trend, indicating that higher salaries are associated with a smaller likelihood of attrition.
-Specifically, the sales department is experiencing higher attrition rates. Additionally, our analysis highlights that overtime is not favorable in terms of attrition. These insights provide valuable information for strategic workforce planning and retention efforts within the organization.
+Specifically, the sales department is experiencing higher attrition rates. 
 
-![Dashboard](https://github.com/RobinLWilson/Project_4/assets/140012839/d41f6485-8a7c-4e2d-84cb-a3f7dd29d3ff)
 
 ![Overal_Attrition](https://github.com/RobinLWilson/Project_4/assets/140012839/83ea9af2-6d15-4e32-9fba-136775ab54e9)
 ![Attrition_by_Dept_vs_Job_Role](https://github.com/RobinLWilson/Project_4/assets/140012839/5e6d766a-24e9-4604-8d14-0f7501f60b9a)
@@ -97,9 +98,15 @@ Specifically, the sales department is experiencing higher attrition rates. Addit
 ![Job_Involvement_vs_Age_Group](https://github.com/RobinLWilson/Project_4/assets/140012839/f4cfd1ad-6fcc-4958-9e43-e5ff18871e1f)
 ![Job_Level_vs_Age_Group](https://github.com/RobinLWilson/Project_4/assets/140012839/202ff760-8b7e-422f-aeda-6fc4f9716186)
 ![Monthly_Income](https://github.com/RobinLWilson/Project_4/assets/140012839/8458281f-27e4-4e48-84e3-b134bcf48218)
+
 ![Travel_Effect](https://github.com/RobinLWilson/Project_4/assets/140012839/560a77be-04b3-4502-8c58-31b865126a3f)
+Our analysis indicates a notable correlation between attrition and frequent business travel.
+
 ![Training_Hours](https://github.com/RobinLWilson/Project_4/assets/140012839/a5b5afae-ed7d-43f1-bf5f-257b7ae4e3c4)
+
 ![Over_Time](https://github.com/RobinLWilson/Project_4/assets/140012839/b4a88758-2f80-4c31-a280-76e2293d782c)
+
+Additionally, our analysis highlights that overtime is not favorable in terms of attrition. These insights provide valuable information for strategic workforce planning and retention efforts within the organization.
 
 ### 3. Predictive Modeling and Results
 Model Selection: 
