@@ -95,6 +95,13 @@ Evaluation Metrics: Determine the evaluation metrics for assessing model perform
 
 ### 4. Interpretation and Recommendations
 Interpret Results: Explain the findings from the analysis and modeling.
+Logistic Regression with Min/Max Scaler:
+<img width="327" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/04028763-1930-456d-b78a-c417f4e10feb">
+
+Logistic Regression with Standard Scaler:
+<img width="323" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/77c1e397-1982-4a3c-96c1-a9634b691877">
+
+Modeling Results After Each Optimization:
 <img width="736" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/738b50e3-6298-41bb-9f94-6427b8863ee4">
 
 Recommendations: Provide actionable recommendations for reducing attrition based on the insights gained.
@@ -106,11 +113,6 @@ Provide instructions on how to run the analysis, including any necessary scripts
 
 
 Develop predictive models to forecast potential attrition based on historical data. This will assist in proactively addressing issues and implementing retention strategies.
-
-## Visualization: 
-
-  
-
 
 
 ## Summary
@@ -148,13 +150,14 @@ The findings from the chi-square analysis highlight significant associations wit
 - [Janka Glenn](https://github.com/jankaglenn)  ![Gmail Badge](https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff&style=flat) ![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=flat)
   - Data Cleaning
   - Tableau Dashboard
-  - GitHub Pages
+  - Visualizations
+  - GitHub README
 
-- [Robin Wilson](https://github.com/RobinLWilson)
+- [Robin Wilson](https://github.com/RobinLWilson) ![Gmail Badge](https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff&style=flat) ![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=flat)
   - Data Source Research
   - Data Cleaning
   - Machine Learning
-  - GitHub Pages
+  - GitHub README
   
 
 ## Software
