@@ -165,6 +165,9 @@ This report presents a comprehensive analysis of key employee-related features w
   
 The following areas are recommended for further exploration:
 
+Data Cleaning:
+We think it would be worthwhile to take another look at the ordinal/relational object variable bins.  This is because our very, very initial results with mostly "OneHotEncoded" or "get_dummies" conversations actually had higher predictive results.  Other parts of the data were not as clean at this point, so this is worth another look.
+
 Covid-19 Impact:
 
 Investigate the potential influence of the Covid-19 pandemic on employee satisfaction and organizational dynamics. Assess how external factors may have contributed to the observed statistical relationships.
