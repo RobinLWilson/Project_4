@@ -60,7 +60,9 @@ Data Cleaning:
 - Finally we verified that all the object datatypes had been changed and that there were no nulls remaining in the data.
 
 ### 2. Exploratory Data Analysis (EDA)
-Descriptive Statistics: Provide summary statistics to describe the overall attrition rate and relevant metrics.
+We conducted the Chi2 test on Attrition and each feature to determine the statistically significant variables.
+<img width="442" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/098c3408-76a8-46f9-9c4e-b7e97a276e2c">
+
 Data Visualization: 
 ### 3. Predictive Modeling
 Model Selection: Choose appropriate models for predicting attrition.
