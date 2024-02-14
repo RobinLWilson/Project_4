@@ -86,7 +86,8 @@ Specifically, the sales department is experiencing higher attrition rates. Addit
 ![Over_Time](https://github.com/RobinLWilson/Project_4/assets/140012839/b4a88758-2f80-4c31-a280-76e2293d782c)
 
 ### 3. Predictive Modeling and Results
-Model Selection: Choose appropriate models for predicting attrition.
+Model Selection: 
+- We chose the Logistic Regression model because it is simple and efficient for classifications.  
 Training and Testing: Split the data into training and testing sets.
 
 Logistic Regression with Min/Max Scaler Results:
@@ -104,18 +105,8 @@ While the model has reasonably high accuracy (85%), the precision and recall for
 Modeling Results After Each Optimization:
 <img width="736" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/738b50e3-6298-41bb-9f94-6427b8863ee4">
 
-### 4. Recommendations
-Recommendations: Provide actionable recommendations for reducing attrition based on the insights gained.
-Dependencies
-List any dependencies or software required to run the code and reproduce the analysis. Include versions to ensure compatibility.
-
-
-
-Develop predictive models to forecast potential attrition based on historical data. This will assist in proactively addressing issues and implementing retention strategies.
-
-
-### 5. Future Research
-This report presents a comprehensive analysis of key employee-related features within our dataset, utilizing chi-square statistics and associated p-values to establish statistical significance. The following features have demonstrated notable statistical associations:
+### 4. Recommendations and Future Research
+This report presents a comprehensive analysis of key employee-related features within our dataset, utilizing chi-square statistics and associated p-values to establish statistical significance. The following features have demonstrated notable statistical associations and should be researched further:
 
 - EnvironmentSatisfaction
 - JobSatisfaction
@@ -125,9 +116,7 @@ This report presents a comprehensive analysis of key employee-related features w
 - YearsAtCompany
 - YearsInCurrentRole
   
-Recommendations for Future Analysis:
-
-Given the observed statistical significance, it is imperative to conduct a more in-depth analysis into the background of the data. The following areas are recommended for further exploration:
+The following areas are recommended for further exploration:
 
 Covid-19 Impact:
 
