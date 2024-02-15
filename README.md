@@ -142,6 +142,16 @@ While the model has reasonably high accuracy (85%), the precision and recall for
 
 <img width="323" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/77c1e397-1982-4a3c-96c1-a9634b691877">
 
+- Decision Tree with Min/Max and Standard Scaler Results:
+    - We Train/Test/Split the data into training and testing sets.
+    - Standard and Min/Max Scaler had not impact
+    - We then chose the Decision Tree model because it is simple and efficient for classifications.
+These results told us that of all the people predicted to leave the company as '1' (attrition), only 30% were actually true positives (i.e., employees who left the company). This indicates that the model has a relatively low precision for predicting attrition.
+
+While the model has reasonably high accuracy (77%), the precision and recall for predicting attrition ('1') are relatively low, suggesting that the model does not perform well in identifying employees who are likely to leave the company.
+
+<img width="341" alt="image" src="https://github.com/RobinLWilson/Project_4/assets/139357402/c1141dcb-de38-4464-bcec-53b2c4e3741c">
+
 
 Neural Network Models:
 - TensorFlow with MinMax Scaler
