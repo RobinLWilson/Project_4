@@ -38,7 +38,7 @@ Data Cleaning:
 - Then we set the index of the DataFrame to be 'EmployeeNumber'
 - Then we dropped the duplicate values which accounted for 7 data points. By using the ".count" feature, we identified there were nulls in the "YearsWithCurrentManager" variable.  After dropping the nulls, we verified no nulls remained by using "isna()".  
 - Next we needed to start converting all object datatypes into numerical values for the machine learning.  To begin, we identified all the object datatypes ('AgeGroup', 'Attrition', 'BusinessTravel', 'Department', 'EducationField', 'Gender', 'JobRole', 'MaritalStatus', 'SalarySlab', 'OverTime').  We then looked at each object variable using ".unique()" in order to:
-    - correct inconsistent data (i.e. the 'Travel' column had 'Travel_Rarely' and 'Non-Rarely')
+    - correct inconsistent data (i.e. the 'Travel' column had 'Travel_Rarely' and 'TravelRarely')
     - analyze the data and determine if the data is Binary, Relational/Ordinal, or Independent.  All data except for "JobRole" and "Department" were quickly analyzed; after discussion, we decided that these alone were independent data, but together they became relational.  So we created a new column ("Department_Role") of the merged data from "JobRole" and "Department." 
  The features were categorized as follows:    
         - Binary: 'Attrition', 'Gender', 'OverTime'
