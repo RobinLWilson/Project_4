@@ -15,7 +15,7 @@ We want to explore the various factors that contribute to attrition, such as bus
 We want to predict if an employee is going to leave in the future.  This information gives HR and management time to create incentives for high-impact employees to remain with the company, thus reducing turnover costs.
 
 ## Project Structure
-### 1. Data Collection
+### 1. Data Collection & Pre-Processing
 
 ![Microsoft Excel Badge](https://img.shields.io/badge/Microsoft%20Excel-217346?logo=microsoftexcel&logoColor=fff&style=flat)
 ![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat)
