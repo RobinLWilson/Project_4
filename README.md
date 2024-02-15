@@ -158,12 +158,24 @@ Modeling Results After Each Optimization:
 ### 4. Recommendations and Future Research
 This report presents a comprehensive analysis of key employee-related features within our dataset, utilizing chi-square statistics and associated p-values to establish statistical significance. 
 The following features have a high influence on attrition and HR/Management can immediately begin using these factors to influence employees in staying at the company:
-    - BusinessTravel- Reduce travel or make it better
-    - EnvironmentSatisfaction- 
-    - JobInvolvement
-    - 
+- BusinessTravel
+- EnvironmentSatisfaction
+- JobInvolvement
+- JobLevel
+- JobSatisfaction
+- MaritalStatus
+- SalarySlab
+- OverTime
+- StockOptionLevel
+- TrainingTimesLastYear
+- WorkLifeBalance
+- YearsAtCompany
+- YearsInCurrentRole
+- YearsWithCurrManager
+- Sales Dept
+- Research_&_Development
 
-The following features have demonstrated notable statistical associations and should be researched further:
+The following features have demonstrated notable statistical associations and we should research further:
 
 - EnvironmentSatisfaction
 - JobSatisfaction
