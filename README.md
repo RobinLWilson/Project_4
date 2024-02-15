@@ -1,3 +1,5 @@
+![image](https://github.com/RobinLWilson/Project_4/assets/140012839/a0504472-34c8-41db-8799-c26438b0e61f)
+
 # **<p>Employee Attrition</p>**
 
 
