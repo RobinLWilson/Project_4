@@ -158,7 +158,7 @@ Neural Network Models:
     - We Train/Test/Split the data into training and testing sets.
     - We chose the Min/Max Scaler because it is good for when features have a known range & it's consistent with the Logistic Regression.
 
-- TensorFlow with MinMax Scaler
+- TensorFlow with Standard Scaler
     - We Train/Test/Split the data into training and testing sets.
     - We chose the Standard Scaler because it is good for when features are normally distributed, it the NN models see benefits & it's consistent with the Logistic Regression.
 
